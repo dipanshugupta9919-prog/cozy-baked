@@ -1,0 +1,6 @@
+{
+  "name": "Cozy Baked",
+  "description": "Boutique cake shop in Lucknow specializing in handcrafted celebration cakes, artisanal pastries, and custom designer cakes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

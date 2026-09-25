@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, Cambria, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  --color-cream-50: #FCFBF7;
+  --color-cream-100: #F7F4EC;
+  --color-cream-200: #EFE9DC;
+  --color-cream-300: #E3D9C6;
+  
+  --color-blush-50: #FFF9F7;
+  --color-blush-100: #FCEEEA;
+  
+  --color-warm-beige: #E8DDD0;
+  --color-warm-brown: #7A533E;
+  --color-warm-caramel: #B87A4C;
+  
+  --color-cocoa-900: #1B120D;
+  --color-cocoa-800: #291B14;
+  --color-cocoa-700: #3D291F;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-cream-50);
+  color: #2D231E;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Ensure no text styling changes on hover anywhere on the site */
+a, button, [role="button"] {
+  text-decoration-skip-ink: auto;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F4EC;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9CEBD;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BFAEA0;
+}
